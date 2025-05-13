@@ -34,7 +34,7 @@ Este projeto consiste em um sistema web desenvolvido em **PHP com orientação a
 
 ---
 
-### 📦 Listagem dos Produtos
+### 📦 Edição dos Produtos
 
 ![Edição dos Produtos](img/editar.png)
 
