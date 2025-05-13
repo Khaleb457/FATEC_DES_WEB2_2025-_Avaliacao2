@@ -12,6 +12,10 @@ if (isset($_GET['mensagem'])) {
             $mensagem = '✏️ Produto editado com sucesso!';
             $classe = 'alerta alerta-edicao';
             break;
+        case 'exclusao':
+            $mensagem = '❌ Produto removido com sucesso!';
+            $classe = 'alerta alerta-exclusao';
+            break;
     }
 }
 ?>

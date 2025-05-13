@@ -4,17 +4,6 @@ require '../partials/session_verify.php';
 
 $db = new DB();
 $product = $db->getAllProducts();
-$mensagem = '';
-$classe = '';
-
-if (isset($_GET['mensagem'])) {
-    switch ($_GET['mensagem']) {
-        case 'exclusao':
-            $mensagem = '❌ Produto removido com sucesso!';
-            $classe = 'alerta alerta-exclusao';
-            break;
-    }
-}
 ?>
 <!DOCTYPE html>
 <html lang="pt-br">

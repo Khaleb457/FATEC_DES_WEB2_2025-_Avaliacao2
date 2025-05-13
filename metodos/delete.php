@@ -6,5 +6,5 @@ if (!isset($_GET['id']) || !is_numeric($_GET['id'])) {
 }
 $db = new DB();
 $db->deleteProduct($_GET['id']);
-header("Location: ../CRUD/index.php?mensagem=exclusao");
+header("Location: ../principal.php?mensagem=exclusao");
 exit;

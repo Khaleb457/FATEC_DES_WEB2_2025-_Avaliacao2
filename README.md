@@ -26,8 +26,6 @@ Este projeto consiste em um sistema web desenvolvido em **PHP com orientação a
 
 ---
 
----
-
 ### 📦 Listagem dos Produtos
 
 ![Listagem dos Produtos](img/listar.png)
